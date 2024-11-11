@@ -1,0 +1,13 @@
+[package]
+name = "rusted_artefacts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+eframe = "0.29.1"
+egui = "0.29.1"
+reqwest = "0.12.9"
+serde = "1.0.214"
+serde_json = "1.0.132"
+tokio = { version = "1.41.1", features = ["full"] }
